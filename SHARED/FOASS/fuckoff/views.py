@@ -20,4 +20,4 @@ def index(request):
 	#html = t.render(Context())
 	#t = Template('<html><form method="POST"><input type="text" name="search"><input type="submit" value="submit"></form></html>')
 	html = '<html><form method="POST">{% csrf_token %}<input type="text" name="search"><input type="submit" value="submit"></form></html>'
-	return HttpResponse(html)
+	return render(request,html)
