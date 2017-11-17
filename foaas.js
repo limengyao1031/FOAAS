@@ -1,7 +1,8 @@
 
 
 
-
+// what we shoud do in final project is just replace 'a' by the existing
+//number in the user's account
 var a=[1,2,3,4,5]
 var text="<tr align='left'><th>your registered messsage:</th></tr>";
 var i;
